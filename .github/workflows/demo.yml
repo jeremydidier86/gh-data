@@ -44,7 +44,7 @@ jobs:
       - name: Donwload artifacts
         uses: actions/download-artifact@v5
         with:
-          name: dist
+          name: dist-files
       - name: Output contents
         run: ls
       - name: Output filename
